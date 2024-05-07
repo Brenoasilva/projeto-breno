@@ -1,0 +1,19 @@
+#navbar {
+  height: fit-content;
+}
+
+#navbar-indice {
+  flex-direction: column;
+  padding: 1.3rem 0;
+}
+
+#navbar-items {
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
